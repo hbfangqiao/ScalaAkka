@@ -19,9 +19,12 @@ lazy val akka = {
     "com.typesafe.akka" %% "akka-actor" % akkaV,
     "com.typesafe.akka" %% "akka-stream" % akkaV,
     "com.typesafe.akka" %% "akka-remote" % akkaV,
+    "com.typesafe.akka" %% "akka-persistence" % akkaV,
     "com.typesafe.akka" %% "akka-http" % "10.0.10",
     "io.spray" %%  "spray-json" % "1.3.3",
-    "org.scalatest"     %% "scalatest" % scalaTestV % "test"
+    "org.scalatest"     %% "scalatest" % scalaTestV % "test",
+    "org.iq80.leveldb"  % "leveldb"  % "0.9",
+    "org.fusesource.leveldbjni"  % "leveldbjni-all" % "1.8"
   )
 }
 
