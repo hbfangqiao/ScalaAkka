@@ -1,5 +1,4 @@
 import sbt.Keys.{libraryDependencies,unmanagedJars}
-import xerial.sbt.Pack.packSettings
 
 lazy val commonSettings = Seq(
   scalaVersion := "2.12.2",
